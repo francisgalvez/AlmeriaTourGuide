@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Almeria Tour Guide</string>
+    <string name="beaches">Beaches</string>
+    <string name="history">History</string>
+    <string name="entertainment">Enter\ntainment</string>
+    <string name="monuments">Monu\nments</string>
+
+
+    <string name="entertainment_1">La Bambalina Restaurant</string>
+    <string name="entertainment_1_location">Calle Padre Alfonso Torres, 14</string>
+
+    <string name="entertainment_2">Cafe Cyrano</string>
+    <string name="entertainment_2_location">Calle Mendez Nuñez, 19</string>
+
+    <string name="entertainment_3">Karting Garrucha</string>
+    <string name="entertainment_3_location">Aptdo. Correos 498 (Garrucha)</string>
+
+    <string name="entertainment_4">Share Lock Scape Room</string>
+    <string name="entertainment_4_location">Calle Minas de Gador, 6</string>
+
+    <string name="entertainment_5">Monumental Cinema</string>
+    <string name="entertainment_5_location">Centro Comercial Mediterraneo, Avda. del Mediterraneo s/n</string>
+
+    <string name="entertainment_6">Cabo de Gata Kayak</string>
+    <string name="entertainment_6_location">Calle Carr. Antigua del Faro, 57 (Cabo de Gata)</string>
+
+    <string name="entertainment_7">Plaza de Toros</string>
+    <string name="entertainment_7_location">Circunvalación Plaza de Toros, 04008</string>
+
+    <string name="entertainment_8">Castor Park Roquetas</string>
+    <string name="entertainment_8_location">Avenida Las Gaviotas (Roquetas de Mar)</string>
+
+    <string name="entertainment_9">Ozone Bowling</string>
+    <string name="entertainment_9_location">Paseo del Mediterraneo, 233 (Mojácar)</string>
+
+    <string name="entertainment_10">Micro Theatre Almeria</string>
+    <string name="entertainment_10_location">Calle Conde Ofalia, 10</string>
+
+    <string name="entertainment_11">Paintball Supervivientes</string>
+    <string name="entertainment_11_location">Polígono 16, Parcela 19 (Gergal)</string>
+
+
+    <string name="beaches_1">Playa de Monsul</string>
+    <string name="beaches_1_location">Parque Natural Cabo de Gata-Nijar (San Jose)</string>
+
+    <string name="beaches_2">Playa de los Genoveses</string>
+    <string name="beaches_2_location">Parque Natural Cabo de Gata-Nijar (San Jose)</string>
+
+    <string name="beaches_3">Playa de Las Negras</string>
+    <string name="beaches_3_location">Las Negras, 04116, Almeria</string>
+
+    <string name="beaches_4">Playa de los Muertos</string>
+    <string name="beaches_4_location">Carboneras, Almeria</string>
+
+    <string name="beaches_5">Cala de Enmedio</string>
+    <string name="beaches_5_location">Agua Amarga, Almeria</string>
+
+    <string name="beaches_6">Playa de Aguadulce</string>
+    <string name="beaches_6_location">Aguadulce, Roquetas de Mar, Almeria</string>
+
+    <string name="beaches_7">Playa de los Escullos</string>
+    <string name="beaches_7_location">Los Escullos, Nijar, Almeria</string>
+
+    <string name="beaches_8">Playa de El Playazo</string>
+    <string name="beaches_8_location">Rodalquilar, Nijar, Almeria</string>
+
+    <string name="beaches_9">Playa de Las Salinas</string>
+    <string name="beaches_9_location">Cabo de Gata, Almeria</string>
+
+
+    <string name="monuments_1">Alcazaba</string>
+    <string name="monuments_1_location">Calle Almanzor, s/n</string>
+
+    <string name="monuments_2">Catedral de Almeria</string>
+    <string name="monuments_2_location">Plaza de la Catedral, 8</string>
+
+    <string name="monuments_3">Refugios</string>
+    <string name="monuments_3_location">Plaza Manuel Perez Garcia, 1</string>
+
+    <string name="monuments_4">Museo de Almeria</string>
+    <string name="monuments_4_location">Ctra. de Ronda, 91</string>
+
+    <string name="monuments_5">Museo de la Guitarra</string>
+    <string name="monuments_5_location">Ronda del Beato Diego Ventaja, s/n</string>
+
+    <string name="monuments_6">Families Park</string>
+    <string name="monuments_6_location">Av. del Mediterraneo, 71</string>
+
+    <string name="monuments_7">Arabic Aljibes</string>
+    <string name="monuments_7_location">Calle Tenor Iribarne, 12</string>
+
+    <string name="monuments_8">Museum of Art "Doña Pakyta"</string>
+    <string name="monuments_8_location">Plaza de Emilio Perez, 2</string>
+
+    <string name="monuments_9">Town Hall Square</string>
+    <string name="monuments_9_location">Plaza de la Constitucion, s/n</string>
+
+    <string name="flag">Flag of Almeria</string>
+    <string name="cable">Cable Ingles, at night</string>
+    <string name="mariposas">House of the Butterflies</string>
+    <string name="harbour">Harbour of Almeria</string>
+
+    <string name="introduction">Introduction</string>
+    <string name="short_description">Almeria is a city in Andalusia, Spain, situated in the southeast of Spain on the Mediterranean Sea.
+        It is the capital of the province of the same name. It was Abd-ar-Rahman III who founded the Alcazaba (the Citadel),
+        which gave this city its name: Al-Mari\'yah. In the 10th and 11th centuries, it formed part of the Caliphate of Cordoba,
+        and grew wealthy on trade and the textile industry, especially silk. It suffered many sieges and fell under Christian domination in 1489.
+        In 1522, Almeria was devastated by an earthquake and rebuilding and recovery didn\'t really get underway until the 19th century.
+        During the Spanish Civil War, the city was shelled by the German Navy, and fell to Franco in 1939. It has since rebuilt its
+        economy around vegetable production, with 100,000 acres of greenhouses, supplying much of Europe</string>
+
+    <string name="main_sights">Main sights</string>
+    <string name="main_sights_description">\t\t•\t\tThe Alcazaba, a medieval fortress that was begun in the 10th century but destroyed by an
+        earthquake in 1522. It includes a triple line of walls, a majestic keep and large gardens. It commands a city quarter with buildings
+        dressed in pastel colors, of Muslim-age aspect.\n
+        \t\t•\t\tAlmeria air raid shelters, underground galleries for civilian protection during the Spanish Civil War, nowadays, the longest in
+        Europe open for tourists.\n
+        \t\t•\t\tThe Cathedral has a fortress-like appearance due to its towers, merlons and protected paths, created to defend it from Mediterranean
+        pirates. Originally designated as a mosque, it was later converted into a Christian church, before being destroyed in the 1522
+        earthquake. In the 16th century it was rebuilt in the Renaissance style, whilst keeping some of its defensive features.\n
+        \t\t•\t\tRenaissance church of Santiago, built in 1533, with tower and portal decorated with reliefs.\n
+        \t\t•\t\tChanca, a group of houses carved into rocks.\n
+        \t\t•\t\tCastle of San Cristobal, now in ruins. It is connected to the Alcazaba by a line of walls.\n
+        \t\t•\t\tMuseum of Almeria. Includes findings from Prehistoric, Iberic, Roman, Greek ages and Muslim objects, mostly from the Alcazaba.\n
+        \t\t•\t\tPaseo de Coches, a modern seaside promenade with gardens and palms</string>
+
+    <string name="people">People and culture</string>
+    <string name="people_description">Famous natives of Almeria include Nicolas Salmeron y Alonso, who in 1873 was the third president of the First
+        Spanish Republic, as well as several musicians, including the composer Jose Padilla Sanchez, whose music was declared of universal
+        interest by Unesco in 1989, the popular folk singer Manolo Escobar, renowned Flamenco guitar player Tomatito and Grammy Award winner
+        David Bisbal; the champion motorcyclist Antonio Maeso moved to Almeria as a child.</string>
+
+    <string name="sports">Sports</string>
+    <string name="sports_description">Almeria hosted the Mediterranean Games in 2005. The city has 2 football teams: UD Almeria, which plays in the Spanish
+        Segunda Division following relegation from La Liga in 2013 and CP Almeria, in regional division.</string>
+
+    <string name="geography">Geography</string>
+    <string name="geography_description">Due to its arid landscape, numerous spaghetti westerns were filmed in Almeria. According to Christopher Frayling,
+        the author of Once Upon a Time in Italy: The Films of Sergio Leone, some of the sets are still there. These sets are located in the
+        desert of Tabernas. The town and region were also used by David Lean in Lawrence of Arabia (1962), John Milius in The Wind and the
+        Lion (1975) and others.\n
+        One of Almeria\'s most famous natural spots is the Cabo de Gata-Nijar Natural Park. This park is of volcanic
+        origin, and is the largest and most ecologically significant marine-terrestrial space in the European Western Mediterranean Sea.
+        With one of the most beautiful and ecologically rich coasts of the western Mediterranean and an area of 380 square kilometres it is
+        one of Spain\'s natural jewels. The Cabo de Gata-Nijar Natural Park runs through the municipal areas of Nijar, Almerimar and Carboneras.
+        Its villages, previously dedicated to fishing, have become tourism spots for those interested in nature. One of the greatest attractions
+        of the Cabo de Gata-Nijar Natural Park is its beaches.</string>
+
+    <string name="climate">Climate</string>
+    <string name="climate_description">With a yearly rain amount of just 200mm, Almeria city is the driest city in Europe and one of the driest on both
+        shores of the Mediterranean coast. According to the Köppen climate classification, it is on the border between a hot semi-arid climate
+        (BSh) and a true hot desert climate (BWh). The latter climate is present in nearby areas of Almeria province (such as the Cabo de
+        Gata-Níjar Natural Park, the Almanzora River valley and Tabernas Desert), the only region in Europe to have this climate. With an
+        average annual temperature above 19 °C it also qualifies as the 2nd warmest city in continental Europe, after Seville, also in
+        Andalusia, Spain. The dry season (although there is no real wet season) occurs during the hottest months, as in the Mediterranean
+        climate. This climatic region spreads along the coastline around Almeria, from approximately Almerimar to the west, to Murcia province
+        in the north-east.\n </string>
+
+    <string name="climate_description_2">
+        Almeria also experiences the warmest winters of any city on the European continent with a population over 100,000,
+        and hot and dry summers with no precipitation between June and September. Almeria enjoys about 3000 hours of sunshine annually with
+        over 320 sunny days a year on average (6 hours of sunshine in January and 12 in July). The city has an average of only 26 days with
+        precipitation annually.\n
+        Almeria is unique, for a city in Continental Europe, for not having any registered temperature under the freezing mark in its recorded
+        weather history. The coldest temperature recorded was 0.2 °C (32.4 °F) on 9 February 1935. The city of Almeria has a very warm climate
+        for its latitude, as it has a very similar climate to Alexandria, in Egypt, which is located further south at 31ºN latitude.\nDuring
+        the winter, daily maximum temperatures tend to stay around 18 °C (64 °F). At night, the temperature very rarely drops below
+        8 °C (46 °F). Precipitation even during the wettest months is rare, this falls in short showers or thunderstorms. Inland areas of the
+        Almería province have reached 50 °C (122 °F) in summer.\nDuring the warmest months - July and August, the sky is clear and sunny and
+        no rainfall occurs. The typical daily temperatures are around 33 °C (91 °F) during the heat of the day. This is often influenced by
+        the Levant wind, a hot dry easterly wind that blows from the interior desert that makes temperatures soar to 38 °C (100 °F) or higher.
+        These can also carry dust or sand. The minimum temperatures stay around 24 °C (75 °F) during July and August. Heatwaves in Almería are
+        quite common; Almería reached up to 43 °C (109 °F) in August 2011.\n </string>
+</resources>
