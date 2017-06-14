@@ -1,17 +1,5 @@
 /*
- * Copyright (C) 2016 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Copyright (c) 2017 by Francis Gálvez. All rights reserved.
  */
 package com.example.android.almeriatourguide;
 
@@ -22,9 +10,9 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 /**
  * {@link CategoryAdapter} is a {@link FragmentPagerAdapter} that can provide the layout for
- * each list item based on a data source which is a list of {@link Word} objects.
+ * each list item based on a data source which is a list of {@link Place} objects.
  */
-public class CategoryAdapter extends FragmentPagerAdapter {
+class CategoryAdapter extends FragmentPagerAdapter {
 
     /** Context of the app */
     private Context context;
@@ -36,7 +24,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
      * @param fm is the fragment manager that will keep each fragment's state in the adapter
      *           across swipes.
      */
-    public CategoryAdapter(Context context, FragmentManager fm) {
+    CategoryAdapter(Context context, FragmentManager fm) {
         super(fm);
         this.context = context;
     }
@@ -46,14 +34,15 @@ public class CategoryAdapter extends FragmentPagerAdapter {
      */
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new HistoryFragment();
-        } else if (position == 1) {
-            return new MonumentsFragment();
-        } else if (position == 2) {
-            return new EntertainmentFragment();
-        } else {
-            return new BeachesFragment();
+        switch (position){
+            case 0:
+                return new HistoryFragment();
+            case 1:
+                return new MonumentsFragment();
+            case 2:
+                return new EntertainmentFragment();
+            default:
+                return new BeachesFragment();
         }
     }
 
@@ -67,14 +56,15 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
-        if (position == 0) {
-            return context.getString(R.string.history);
-        } else if (position == 1) {
-            return context.getString(R.string.monuments);
-        } else if (position == 2) {
-            return context.getString(R.string.entertainment);
-        } else {
-            return context.getString(R.string.beaches);
+        switch (position){
+            case 0:
+                return context.getString(R.string.history);
+            case 1:
+                return context.getString(R.string.monuments);
+            case 2:
+                return context.getString(R.string.entertainment);
+            default:
+                return context.getString(R.string.beaches);
         }
     }
 }

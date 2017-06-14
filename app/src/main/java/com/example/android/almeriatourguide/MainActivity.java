@@ -1,3 +1,6 @@
+/*
+ * Copyright (c) 2017 by Francis Gálvez. All rights reserved.
+ */
 package com.example.android.almeriatourguide;
 
 import android.support.design.widget.TabLayout;
@@ -21,7 +24,9 @@ public class MainActivity extends AppCompatActivity {
         CategoryAdapter adapter = new CategoryAdapter(this, getSupportFragmentManager());
 
         // Set the adapter onto the view pager
-        viewPager.setAdapter(adapter);
+        if (viewPager != null) {
+            viewPager.setAdapter(adapter);
+        }
 
         // Find the tab layout that shows the tabs
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
@@ -31,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
         //   2. Update the view pager when a tab is selected
         //   3. Set the tab layout's tab names with the view pager's adapter's titles
         //      by calling onPageTitle()
-        tabLayout.setupWithViewPager(viewPager);
+        if (tabLayout != null) {
+            tabLayout.setupWithViewPager(viewPager);
+        }
     }
 }

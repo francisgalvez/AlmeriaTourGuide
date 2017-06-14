@@ -1,7 +1,7 @@
 package com.example.android.almeriatourguide;
 
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,24 +15,59 @@ import java.util.ArrayList;
  * {@link PlaceAdapter} is an {@link ArrayAdapter} that can provide the layout for each list item
  * based on a data source, which is a list of {@link Place} objects.
  */
-public class PlaceAdapter extends ArrayAdapter<Place> {
+class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.ViewHolder>{
 
-    /** Resource ID for the background color for this list of Places */
-    private int colorResourceId;
+    private ArrayList<Place> places = new ArrayList<>();
 
     /**
      * Create a new {@link PlaceAdapter} object.
      *
      * @param context is the current context (i.e. Activity) that the adapter is being created in.
      * @param places is the list of {@link Place}s to be displayed.
-     * @param colorResourceId is the resource ID for the background color for this list of Places
      */
-    public PlaceAdapter(Context context, ArrayList<Place> places, int colorResourceId) {
-        super(context, 0, places);
-        this.colorResourceId = colorResourceId;
+    PlaceAdapter(Context context, ArrayList<Place> places) {
+        super();
+        this.places = places;
+    }
+
+    class ViewHolder extends RecyclerView.ViewHolder{
+        TextView titleTextView, locationTextView;
+        ImageView imageView;
+
+        ViewHolder(View listItemView){
+            super(listItemView);
+            // Find the TextView in the list_item.xml layout with the place's ID text_view.
+            titleTextView = (TextView) listItemView.findViewById(R.id.title_text_view);
+
+            // Find the TextView in the list_item.xml layout with the place's ID text_view.
+            locationTextView = (TextView) listItemView.findViewById(R.id.location_text_view);
+
+            // Find the ImageView in the list_item.xml layout with the ID image.
+            imageView = (ImageView) listItemView.findViewById(R.id.image);
+        }
     }
 
     @Override
+    public PlaceAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType){
+        View listItemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item, parent, false);
+        return new PlaceAdapter.ViewHolder(listItemView);
+    }
+
+    @Override
+    public void onBindViewHolder(PlaceAdapter.ViewHolder holder, int position){
+        // Get the {@link Place} object located at this position in the list
+        Place currentPlace = places.get(position);
+        holder.titleTextView.setText(currentPlace.getNameId());
+        holder.locationTextView.setText(currentPlace.getLocationId());
+        holder.imageView.setImageResource(currentPlace.getImageResourceId());
+    }
+
+    @Override
+    public int getItemCount() {
+        return places.size();
+    }
+
+    /*@Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if an existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
@@ -70,5 +105,5 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
 
         // Return the whole list item layout (containing 2 TextViews) so that it can be shown in the ListView.
         return listItemView;
-    }
+    }*/
 }

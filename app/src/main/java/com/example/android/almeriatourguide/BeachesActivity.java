@@ -1,3 +1,6 @@
+/*
+ * Copyright (c) 2017 by Francis Gálvez. All rights reserved.
+ */
 package com.example.android.almeriatourguide;
 
 import android.os.Bundle;

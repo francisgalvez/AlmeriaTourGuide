@@ -1,4 +1,18 @@
+<!--
+  ~ Copyright (c) 2017 by Francis Gálvez. All rights reserved.
+  -->
 <resources>
+    <!-- Basic styles -->
+    <style name="WrapContent">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <!-- Basic styles -->
+    <style name="MatchWrap">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -26,16 +40,7 @@
         <item name="android:textColor">#dfdbda</item>
     </style>
 
-    <style name="WrapContent">
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_width">wrap_content</item>
-    </style>
-
-    <style name="MatchWrap">
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_width">match_parent</item>
-    </style>
-
+    <!-- Text appearance style for a header (history_activity.xml) -->
     <style name="HeaderStyle" parent="MatchWrap">
         <item name="android:layout_marginTop">5dp</item>
         <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>

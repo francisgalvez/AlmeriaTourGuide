@@ -1,12 +1,9 @@
+/*
+ * Copyright (c) 2017 by Francis Gálvez. All rights reserved.
+ */
 package com.example.android.almeriatourguide;
 
-import static android.R.attr.name;
-
-/**
- * Created by franc on 12/06/2017.
- */
-
-public class Place {
+class Place {
 
     /** Place's popular name */
     private int nameId;
@@ -27,29 +24,22 @@ public class Place {
      * @param locationId is the ID of the string which represents the address of the place
      * @param imageResourceId is the drawable resource ID for the image associated with the place
      */
-    public Place(int nameId, int locationId, int imageResourceId) {
+    Place(int nameId, int locationId, int imageResourceId) {
         this.imageResourceId = imageResourceId;
         this.nameId = nameId;
         this.locationId = locationId;
     }
 
     // Getters and setters
-    public int getNameId() {
+    int getNameId() {
         return this.nameId;
     }
 
-    public int getLocationId() {
+    int getLocationId() {
         return locationId;
     }
 
-    public int getImageResourceId() {
+    int getImageResourceId() {
         return imageResourceId;
-    }
-
-    /**
-     * Returns whether or not there is an image for this place.
-     */
-    public boolean hasImage() {
-        return imageResourceId != NO_IMAGE_PROVIDED;
     }
 }
